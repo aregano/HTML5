@@ -1,0 +1,27 @@
+body{background-color: peru}
+
+header > div > img{width: 100px}
+
+header {background-color: sienna}
+
+h1{background-color: springgreen}
+
+article > div {width: 300px; border: 2px solid royalblue}
+
+article > div > img {width: 100%}
+
+p{
+    color: white; 
+    font-size: 20px; 
+    background-color: rgb(9, 172, 248); 
+    font-family: sans-serif;
+    width: 200px;
+    padding: 10px;
+    margin: 2px
+}
+
+p.azul{background-color: aqua}
+
+p.rojo{background-color: crimson}
+
+.bordeado{border: 2px solid cornflowerblue}
