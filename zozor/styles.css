@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Ballpark';
+    font-style: normal;
+    font-weight: 400;
+    src: url('ballpark_weiner.ttf') format('truetype')
+}   
+
+@font-face {
+    font-family: 'Dayrom';
+    font-style: normal;
+    font-weight: 400;
+    src: url('DAYROM__.ttf') format('truetype')
+}   
+
+.rotate-center {
+	-webkit-animation: rotate-center 0.6s ease-in-out both;
+	        animation: rotate-center 0.6s ease-in-out both;
+}
+
+body > header{padding: 10px}
+
+body > header >div >div > div{display: inline-block}
+
+body > header >div >div > div > h1 {
+    font-family: Ballpark; 
+    display: inline-block;
+    font-size: 2.5em}
+
+body{font-family: Dayrom; background-color: #181818;}
+
+body{background: url(./images/yellow_background.png)}
+
