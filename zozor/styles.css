@@ -37,9 +37,16 @@ body > header >div >div > h2 {
     font-size: 1.1em;
     font-weight: normal}
 
-body > header >div >div > div{display: inline-block}
+body > header >div >div > div{
+    display: inline-block;
+    }
+
+body > header > nav > ul{padding: 0px}
 
 body > header > nav > ul > li > a{text-decoration: black; 
-    display: inline-block}
+    display: inline-block;
+    padding: 0px}
+
+
 
 
