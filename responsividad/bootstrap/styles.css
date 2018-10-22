@@ -1,0 +1,17 @@
+body{height: 700px; border: 5px solid ghostwhite; margin: 5px solid ghostwhite}
+
+header{height: 25%}
+
+header > div.col-4{background: blue; border: 5px solid ghostwhite}
+
+header > div.col-8{background: lightgrey; border: 5px solid ghostwhite}
+
+section{height: 50%}
+
+section > div.col-12{background: lightgrey; border: 5px solid ghostwhite}
+
+footer{height: 25%}
+
+footer > div.col-12{background: red; border: 5px solid ghostwhite}
+
+footer > div.col-sm-4{background: red; border: 5px solid ghostwhite}
