@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registrate</h1>
+    <form method="POST" action="recepcionform.html">
+        <div>
+            <label for="nombre">Teclea:</label>
+            <input type="text" placeholder="teclea maldito" name="teclea" 
+            id="nombre" minlength="3" maxlength="30" pattern="[A-Z][a-z ]*" required>
+       </div>
+
+        <!--div>(label[for=email](Email:)+input[id=email placeholder="Introduce tu email"])-->
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Introduce tu email">
+        </div>
+
+        <div>
+            <h3>Sexo</h3>
+            <div>
+                <input type="radio" name="sexo" id="M"><label for="m">M</label> 
+                <input type="radio" name="sexo" id="F"><label for="f">F</label>
+                <input type="radio" name="sexo" id="Other"><label for="other">Other</label>
+            </div>
+        </div>
+
+        <div>
+            <h3>Colores Favoritos</h3>
+            <div>
+                <input type="checkbox" name="color" id="rojo"><label for="rojo">Rojo</label>
+                <input type="checkbox" name="color" id="azul"><label for="azul">Azul</label>
+                <input type="checkbox" name="color" id="verde"><label for="verde">Verde</label>
+            </div>
+        </div>
+
+        <div>
+            <label for="Edad">Edad:</label>
+            <input type="number" name="Edad" id="Edad" min="14" max="92">
+        </div>
+
+        <div>
+            <button>Clickea</button>
+        </div>
+
+
+    </form>
+</body>
+</html>
