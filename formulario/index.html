@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Registrate</h1>
@@ -18,25 +20,25 @@
         <!--div>(label[for=email](Email:)+input[id=email placeholder="Introduce tu email"])-->
 
         <div>
-            <label for="email">Email</label>
+            <label for="email">Email:</label>
             <input type="email" id="email" name="email" placeholder="Introduce tu email">
         </div>
 
         <div>
             <h3>Sexo</h3>
             <div>
-                <input type="radio" name="sexo" id="M"><label for="m">M</label> 
-                <input type="radio" name="sexo" id="F"><label for="f">F</label>
-                <input type="radio" name="sexo" id="Other"><label for="other">Other</label>
+                <input type="radio" name="sexo" id="M" value="1"><label for="m">M</label> 
+                <input type="radio" name="sexo" id="F" value="2"><label for="f">F</label>
+                <input type="radio" name="sexo" id="Other" value="3"><label for="other">Other</label>
             </div>
         </div>
 
         <div>
             <h3>Colores Favoritos</h3>
             <div>
-                <input type="checkbox" name="color" id="rojo"><label for="rojo">Rojo</label>
-                <input type="checkbox" name="color" id="azul"><label for="azul">Azul</label>
-                <input type="checkbox" name="color" id="verde"><label for="verde">Verde</label>
+                <input type="checkbox" name="color" id="rojo" value="1"><label for="rojo">Rojo</label>
+                <input type="checkbox" name="color" id="azul" value="2"><label for="azul">Azul</label>
+                <input type="checkbox" name="color" id="verde" value="3"><label for="verde">Verde</label>
             </div>
         </div>
 
@@ -44,6 +46,23 @@
             <label for="Edad">Edad:</label>
             <input type="number" name="Edad" id="Edad" min="14" max="92">
         </div>
+
+        <div>
+            <label for="Pais">Pais</label>
+            <select name="pais" id="pais" required>
+                <option value="0" disabled selected>Elegir Pais</option>
+                <option value="4">Noruega</option>
+                <option value="5">España</option>
+                <option value="6">UK</option>
+                <option value="7">Alemania</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="cuenta algo">Cuenta algo de Ti</label>
+            <textarea name="cuenta algo" id="cuenta algo" placeholder="Escribe"></textarea>
+        </div>
+
 
         <div>
             <button>Clickea</button>

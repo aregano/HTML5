@@ -1,0 +1,54 @@
+body{margin: 0}
+
+#myform{width: 570px;
+    background: black; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto}
+
+h1{width: 500px;
+    color: white;
+    display: inline-block;
+    margin-bottom: 40px;
+    text-align: center}
+
+form{width: 500px}
+
+input[type=text],input[type=email],input[type=tel],input[type=password]{
+    width: 95%; padding: 5px 5px 5px 28px ; margin: 1% 5%; display: inline-block; border-radius: 10px}
+
+aside > form > div{margin: 5% 20%; }
+
+#name{background-image: url(./imgs/man-user.png);
+    background-position: 4px;
+    background-size: 20px;
+    background-repeat: no-repeat}
+
+#phone_number{background-image: url(./imgs/call.png);
+    background-position: 4px;
+    background-size: 20px;
+    background-repeat: no-repeat}
+
+#email{background-image: url(./imgs/close-envelope.png);
+    background-position: 4px;
+    background-size: 20px;
+    background-repeat: no-repeat}
+
+#password{background-image: url(./imgs/house-key.png);
+    background-position: 4px;
+    background-size: 20px;
+    background-repeat: no-repeat}
+
+#terms{color: white;
+    font-size: 0.9em}
+
+#terms > span > a{color: greenyellow}
+
+.der{text-align: right}
+
+button{width: 250px; height: 60px;
+    display: inline-block;
+    margin-top: 20px; margin-bottom: 30px;
+    font-size: 2em;
+    color: white; background: green; border-radius: 10px}

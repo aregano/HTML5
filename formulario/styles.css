@@ -1,0 +1,19 @@
+body{
+    font-family: fantasy;
+    font-size: 14px;
+    color: burlywood;
+    background: brown}
+
+label{width: 60px; display: inline-block}
+
+input[type=text],input[type=number],input[type=email]{width: 200px; border: 1px}
+
+select{width: 200px; border: 1px}
+
+button{width: 100px; height: 100px;
+    box-shadow: 10px 10px 10px 0px aqua}
+
+form label{display: inline-block}
+
+form textarea{width: 200px; height: 500px;
+    display: inline-block}
